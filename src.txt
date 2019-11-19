@@ -5,23 +5,23 @@ Lim2011 - Text - No - C
 Lesner2010 - Text / Tokens - No - C
 Poon2012 - Tokens - No - Java
 Cholakov2015 - PDG - No - Java
-CtCompare - Tokens - Yes - Unspecified
-CloneWorks - Tokens - Yes - Java
-SHINOBI - Tokens - Yes - Any
-CodeEase - Tokens - Yes - Unspecified
-SaCD - Tokens - No - Java / C / C++
-Boreas - Tokens - No - Java
-SourcererCC - Tokens - Yes - Java
-CPDP - Tokens - No - Java
-SourcererCC-I - Tokens - No - Java
-Semura2018 - Tokens - Yes - Any
+CtCompare (Toomey2012) - Tokens - Yes - Unspecified
+CloneWorks (Svajlenko2017) - Tokens - Yes - Java
+SHINOBI (Kawaguchi2009) - Tokens - Yes - Any
+CodeEase (Abid2017) - Tokens - Yes - Unspecified
+SaCD (Shi2013) - Tokens - No - Java / C / C++
+Boreas (Yuan2012) - Tokens - No - Java
+SourcererCC (Sajnani2016) - Tokens - Yes - Java
+CPDP (Muddu2013) - Tokens - No - Java
+SourcererCC-I (Saini2016) - Tokens - No - Java
+Semura2018 - Tokens - No - Any
 Lavoie2012 - Tokens - No - Java
 Iwamoto2012 - Tokens - No - Java / C
 Gode2009 - Tokens - No - Java / C
 Dexsim (Elsabagh2018) - Tokens - No - Java
 Hummel2010 - Tokens - No - C
 Dong2012 - Tokens - No - Binary
-CCFinderSW (Semura2017) - Tokens - No - Any
+CCFinderSW (Semura2017) - Tokens - Yes - Any
 Iwamoto2013 - Tokens - No - Java / C
 Nicad (Cordy2011) - Tokens - Yes - C / C# / Java / Python / WSDL
 Mahajan2014 - Tokens / Semantic - No - C / C++
@@ -29,9 +29,9 @@ Keivanloo2013 - Tokens / Semantic - No - Unspecified
 Agrawal2013 - Tokens / Text - No - Java
 Kamiya2012 - PDG - No - C
 Kamalpriya2017 - PDG - No - Java / C
-CCSharp - PDG - No - Java
+CCSharp (Wang2017) - PDG - No - Java
 Higo2011 - PDG - No - Java
-Clone-Differentiator - PDG - No - Java
+Clone-Differentiator (Xing2011) - PDG - Yes - Java
 Higo2011 - PDG / Metric - No - Java
 Roopam2017 - PDG / Metric - No - Java
 Merlo2009 - AST - No - Java
@@ -46,7 +46,7 @@ Sarala2013 - Semantic - No - C#
 Tekchandani2013 - Semantic - No - Unspecified
 Agec (Kamiya2013) - Semantic - Yes - Java
 LICCA (Vislavski2018) - Semantic - Yes - Java / C / JavaScript
-SeByte - Semantic - No - Java
+SeByte (Keivanloo2012) - Semantic - No - Java
 Yu2019 - Semantic - No - Java
 Mostaeen2018 - Learning - Yes - C / Java
 Jadon2016 - Learning - No - C
@@ -58,10 +58,10 @@ Kodhai2010 - Text - No - C
 VFDETECT (Liu2017) - Text - No - Java
 Gupta2018 - Text - No - Any
 LePalex (Maeda2010) - Text - No - Java
-CCCD - Text - Yes - C
+CCCD (Krutz2013) - Text - Yes - C
 Cuomo2012 - Text - No - Java
-SimCad - Text - No - Java
+SimCad (Uddin2013) - Text - No - Java
 Kaur2016 - Mining - No - Unspecified
 Clone Miner (Basit2009) - Mining - No - Java
-Li2011 - AST - Yes - Erlang
+Li2011 - AST - No - Erlang
 Nichols2019 - AST - No - C# / C++ / Go / Java / JavaScript / Python / Swift

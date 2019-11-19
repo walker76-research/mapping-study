@@ -92,6 +92,11 @@ public class Main {
             languageFileWriter.write(languageResult.toCSV() + "\n");
         }
         languageFileWriter.close();
+
+        System.out.println("\n----TABLE_ROWS----");
+        for(Study study : studies){
+            System.out.println(study.tableRow());
+        }
     }
 
     private static class Study {
@@ -127,6 +132,30 @@ public class Main {
                     ", openSource=" + openSource +
                     ", languages=" + languages +
                     '}';
+        }
+
+        public String tableRow(){
+            StringBuilder methodBuilder = new StringBuilder();
+            methodBuilder.append(methods.get(0).getString());
+            if(methods.size() > 1){
+                for(int i = 1; i < methods.size(); i++){
+                    methodBuilder.append(" / ");
+                    methodBuilder.append(methods.get(i).getString());
+                }
+            }
+
+            String openSourceString = openSource.equals(OpenSource.YES) ? "Yes" : "No";
+
+            StringBuilder languageBuilder = new StringBuilder();
+            languageBuilder.append(languages.get(0));
+            if(languages.size() > 1){
+                for(int i = 1; i < languages.size(); i++){
+                    languageBuilder.append(" / ");
+                    languageBuilder.append(languages.get(i));
+                }
+            }
+
+            return String.format("%s & \\ref{} & %s & %s & %s \\\\", name, methodBuilder.toString(), openSourceString, languageBuilder.toString());
         }
     }
 
